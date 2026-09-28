@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" role="img" aria-label="Corte transversal de un árbol pequeño: sus raíces doradas se extienden bajo tierra sosteniendo la oscuridad.">
+  <defs>
+    <linearGradient id="bgD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1218"/>
+      <stop offset="100%" stop-color="#07080b"/>
+    </linearGradient>
+    <linearGradient id="soilD" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14100a"/>
+      <stop offset="100%" stop-color="#07080b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="600" fill="url(#bgD)"/>
+
+  <!-- ground line -->
+  <line x1="0" y1="300" x2="480" y2="300" stroke="#c9a24b" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect x="0" y="300" width="480" height="300" fill="url(#soilD)"/>
+
+  <!-- slender trunk above ground -->
+  <path d="M240 300 C238 250 236 200 240 150 C242 130 246 110 240 80" fill="none" stroke="#9b9689" stroke-width="4" stroke-linecap="round"/>
+  <!-- a few bare branches -->
+  <g stroke="#9b9689" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M240 150 C210 130 190 120 165 128"/>
+    <path d="M240 150 C270 130 292 120 315 130"/>
+    <path d="M240 100 C220 82 205 74 185 76"/>
+    <path d="M240 100 C258 82 274 74 292 78"/>
+  </g>
+
+  <!-- roots below ground, holding the darkness -->
+  <g stroke="#c9a24b" stroke-width="2.4" stroke-linecap="round" fill="none" stroke-opacity="0.8">
+    <path d="M240 300 C220 330 190 345 150 350"/>
+    <path d="M240 300 C260 330 290 345 330 350"/>
+    <path d="M240 300 C232 340 226 380 232 430"/>
+    <path d="M240 300 C248 340 254 380 248 430"/>
+    <path d="M150 350 C120 360 100 375 85 400"/>
+    <path d="M330 350 C360 360 380 375 395 400"/>
+  </g>
+
+  <!-- a small stone-heart cradled among the roots -->
+  <path d="M240 440 C224 424 200 430 200 452 C200 472 240 500 240 500 C240 500 280 472 280 452 C280 430 256 424 240 440 Z"
+        fill="none" stroke="#f2cf7a" stroke-width="2" stroke-opacity="0.7"/>
+</svg>
